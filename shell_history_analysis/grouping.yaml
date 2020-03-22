@@ -78,6 +78,8 @@ JS:
 Cloud:
   - az
   - aws
+  - cw
+  - awslogs
 LaTeX:
   - pdflatex
   - tlmgr
@@ -113,6 +115,7 @@ Remote:
   - scp
   - ssh
   - ssh-keygen
+  - ssh-add
 Rust:
   - cargo
 'Shell Scripting':
