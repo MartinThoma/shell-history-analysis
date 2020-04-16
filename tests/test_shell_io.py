@@ -1,5 +1,6 @@
 """Test the shell_io module."""
 
+# First party modules
 from shell_history_analysis.shell_io import extract_command_list
 
 

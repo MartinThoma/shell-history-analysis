@@ -12,7 +12,31 @@ $ pip install shell_history_analysis
 # This is important, because the `history` command has different outputs in
 # different shells.
 # Fish shell has only the command itself as an output.
-$ python analyze.py history.txt --shell bash
+$ shell_history_analysis history.txt --shell=zsh
+Assumed shell: zsh
+Grouping filepath: /home/moose/GitHub/shell-history-analysis/shell_history_analysis/grouping.yaml
+
+CLI Utils                 2731
+git                       2498
+Python                    1536
+Editor(s)                  905
+System Package Manager     271
+Dev-Tools                  203
+Docker                     187
+System Management          160
+mutmut                     153
+CLI Programs                88
+pipenv                      53
+clana                       43
+conda                       36
+exercism                    33
+7z                          21
+hwrt                        21
+Shell Scripting             21
+pandoc                      21
+gzip                        20
+Name: base_command, dtype: int64
+Writing image to /home/moose/history.png
 ```
 
 ![History of Commands](https://raw.githubusercontent.com/MartinThoma/shell-history-analysis/master/docs/history.png)

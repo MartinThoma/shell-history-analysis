@@ -1,9 +1,8 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 
 """shell history analysis."""
 
-# Third party
+# Third party modules
 from setuptools import setup
 
 setup(

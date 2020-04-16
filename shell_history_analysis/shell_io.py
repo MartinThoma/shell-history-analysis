@@ -1,7 +1,9 @@
 """Parsing the shell history."""
 
+# Core Library modules
 import re
 
+# Third party modules
 import dateutil.parser
 import pandas as pd
 

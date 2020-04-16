@@ -2,8 +2,10 @@
 
 """Analyze a shell history."""
 
+# Third party modules
 import click
 
+# First party modules
 from shell_history_analysis.analyze import main
 
 
