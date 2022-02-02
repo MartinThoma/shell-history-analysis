@@ -33,6 +33,6 @@ jobs:
     - name: Test with mypy
       run: mypy . --exclude=build --ignore-missing-imports
     - name: Test with flake8
-      run: flake8
+      run: flake8 --exclude build
     - name: Test with black
       run: black --check .
