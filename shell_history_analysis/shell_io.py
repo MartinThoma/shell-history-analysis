@@ -60,10 +60,9 @@ def clean_prefix(x: str, prefix: str) -> str:
     x = x[len(prefix) :]
     i = 0
     last_was_minus = False
-    for i, char in enumerate(x):
-        if last_was_minus:
-            if char == " ":
-                last_was_minus = False
+    for i, char in enumerate(x):  # noqa: B007
+        if last_was_minus and char == " ":
+            last_was_minus = False
         if char == "-":
             last_was_minus = True
         if char not in ["-", " "] and not last_was_minus:
