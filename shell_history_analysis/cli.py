@@ -11,7 +11,7 @@ from shell_history_analysis.analyze import main
 
 @click.command()
 @click.argument("filename", type=click.Path(exists=True))
-@click.option("--shell", type=click.Choice({"zsh", "fish", "bash"}))
+@click.option("--shell", type=click.Choice(["zsh", "fish", "bash"]))
 @click.option(
     "--grouping",
     type=click.Path(exists=True),
