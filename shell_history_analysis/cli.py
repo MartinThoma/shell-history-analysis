@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 """Analyze a shell history."""
 
 # Third party modules
