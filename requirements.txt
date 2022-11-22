@@ -24,7 +24,7 @@ packaging==21.3
     # via matplotlib
 pandas==1.3.5
     # via shell-history-analysis (setup.py)
-pillow==9.0.1
+pillow==9.3.0
     # via matplotlib
 pyaml==21.10.1
     # via shell-history-analysis (setup.py)
